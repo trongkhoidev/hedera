@@ -1,0 +1,30 @@
+{
+  "name": "indexerhedera",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@hashgraph/sdk": "^2.54.2",
+    "axios": "^1.7.8",
+    "dotenv": "^16.4.6",
+    "pg": "^8.13.1",
+    "pg-hstore": "^2.3.4",
+    "pg-pool": "^3.7.0",
+    "sequelize": "^6.37.5"
+  },
+  "devDependencies": {
+    "@hashgraph/hardhat-hethers": "^1.0.4",
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@nomiclabs/hardhat-waffle": "^2.0.6",
+    "chai": "^5.1.2",
+    "ethereum-waffle": "^4.0.10",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.22.16"
+  }
+}
